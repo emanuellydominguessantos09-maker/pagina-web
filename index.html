@@ -34,6 +34,7 @@
         <p>Ele é perfeito e não tem defeitos</p>
     </header>
     <main>
+        <article>
         <img src="post1.png" alt="icone de computador">
        
         <div>
@@ -43,14 +44,27 @@
             <button>❤️ <span>0</span></button>
             <button>👍 <span>0</span></button>
         </div>
-
+</article>
     </main>
 </body>
 
+
+<article>
+        <img src="post1.png" alt="icone de computador">
+       
+        <div>
+            <h2>Meu segundo post</h2>
+            <p>editado por Mateus</p>
+            <p>Btecnologia e computação</p>
+            <button>❤️ <span>0</span></button>
+            <button>👍 <span>0</span></button>
+        </div>
+</article>
+
 <script>
-    const botoes = document.querySelector("button");
-    botoes.forEach(function(botaoClicado){
-        botao.addEvenListener("click",botaoClicado);
+    const botoes = document.querySelectorAll("button");
+    botoes.forEach(function(botao){
+        botao.addEventListener("click",botaoClicado);
    
     function botaoClicado () {
         console.log("fui clicado");
