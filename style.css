@@ -1,10 +1,23 @@
+            :root {
+ --cor-primaria: hsl(313, 67%, 84%);
+--cor-secundaria: #a2e8eb;
+--cor-fundo:#000000;
+--cor-texto:#000000;
+--cor-contraste:#000000;
+--cor-botao:#000000;
+
+            }
+
+
+
+
 header {
-            background-color: darkred;
-            color: azure;
+            background-color: var(--cor-secundaria)
+            color: var(aquamarine)
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
-            border: 1px solid #000000;
+            border: 1px solid var(--cor-fundo)
             padding: 16px;
         }
 
