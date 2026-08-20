@@ -16,6 +16,18 @@
 --cor-botao:#6ff2cd;
 }
 
+.tema-escuro a {
+    color: var(--cor-secundaria);
+}
+
+.tema-escuro p{
+    color: var(--cor-texto);
+}
+
+.tema-escuro header p{
+color: var(--cor-contraste);
+}
+
 header {
             background-color: var(--cor-secundaria)
             color: var(#f2c66f)
