@@ -1,19 +1,24 @@
             :root {
  --cor-primaria: hsl(313, 67%, 84%);
 --cor-secundaria: #a2e8eb;
---cor-fundo:#000000;
---cor-texto:#000000;
---cor-contraste:#000000;
---cor-botao:#000000;
-
-            }
-
-
-
+--cor-fundo:#e8f19c;
+--cor-texto:#f27dcf;
+--cor-contraste:#8efd69;
+--cor-botao:#f2c66f;
+}
+  
+.tema-escuro {
+ --cor-primaria: hsl(313, 83%, 60%);
+--cor-secundaria: #2a7ef4;
+--cor-fundo:#46ec14;
+--cor-texto:#f27dcf;
+--cor-contraste:#fc2d26;
+--cor-botao:#6ff2cd;
+}
 
 header {
             background-color: var(--cor-secundaria)
-            color: var(aquamarine)
+            color: var(#f2c66f)
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
